@@ -2,6 +2,7 @@ opencv_python==4.5.1.48
 tensorflow-cpu==2.4.0
 Flask==1.1.2
 Werkzeug==1.0.1
+gunicorn
 scikit_image
 numpy==1.19.5
 Pillow==8.1.0
