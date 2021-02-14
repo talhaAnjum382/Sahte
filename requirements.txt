@@ -1,0 +1,10 @@
+opencv_python==4.5.1.48
+tensorflow==2.4.0
+matplotlib==3.3.3
+Flask==1.1.2
+Werkzeug==1.0.1
+scikit_image==0.18.1
+numpy==1.19.5
+Pillow==8.1.0
+scikit_learn==0.24.0
+skimage==0.0
