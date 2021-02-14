@@ -4,7 +4,6 @@ from Face_dectection import faceDetection
 from CNN import CNNModel
 from ImageProcess import ImageProcess
 from SVM import SVM
-from flask_ngrok import run_with_ngrok
 import cv2
 
 
@@ -13,7 +12,6 @@ svm = SVM()
 
 app = flask.Flask(__name__)
 app.secret_key="key"
-run_with_ngrok(app)
 @app.route('/', methods = ['GET', 'POST'])
 def requestCheck():
     if request.method == 'POST':
